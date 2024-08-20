@@ -1,0 +1,78 @@
+*{
+    font-family: "Montserrat", sans-serif;
+}
+.page_name{
+    margin-left: 155px;
+    margin-top: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    border: 2px solid;
+}
+.search_bar input{
+    height: 100%;
+    width: 100%;
+}
+.search_bar i{
+    position:absolute;
+    padding: 18px;
+    min-width: 40px;
+}
+.search_bar{
+    height: 50px;
+    width: 275px;
+}
+.nav_items{
+    list-style-type: none;
+}
+.nav_items li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 40px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+.nav_items li{
+    transition: all 0.3s ease;
+    color: black;
+}
+.nav_items li:hover{
+    transition: all 0.3s ease;
+    background-color: #4B7ACA;
+    color: white;
+}
+.profiles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Users{
+    transition: all 0.3 ease;
+    display: flex;
+    width: 30%;
+    height: 40%;
+    border-radius: 20px;
+}
+.Users:hover{
+    transition: all 0.3 ease;
+    box-shadow: 3px 5px #888888;
+}
+.profile_image{
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: gray;
+}
+.profile_info{
+    margin-left: 20px;
+    margin-top: 10px;
+}
